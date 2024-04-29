@@ -52,7 +52,7 @@ class CarInterface(CarInterfaceBase):
         ret.experimentalLongitudinalAvailable = True
         ret.radarUnavailable = False
         ret.longitudinalTuning.kpBP = [0., 5., 30.]
-        ret.longitudinalTuning.kpV = [1.6, 1.3, 1]
+        ret.longitudinalTuning.kpV = [1.6, 1.3, 1.]
         ret.longitudinalTuning.kiBP = [0., 5., 20., 30.]
         ret.longitudinalTuning.kiV = [0.36, 0.23, 0.17, 0.1]
         ret.longitudinalTuning.deadzoneBP = [0.0, 30.0]
